@@ -55,7 +55,7 @@
 
 				<footer class="footer-post">
 
-					{{#author}}
+					<!-- {{#author}}
 					<section class="author-post">
 						{{#if image}}
 							<figure class="avatar">
@@ -73,9 +73,9 @@
 							{{/if}}
 						</div>
 					</section>
-					{{/author}}
+					{{/author}} -->
 
-					<section class="share">
+					<!-- <section class="share">
 						<h4>Share</h4>
 						<a href="https://twitter.com/share?text={{title}}&url={{url absolute="true"}}" class="fa fa-twitter" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
 							<span class="hidden">Twitter</span>
@@ -88,8 +88,16 @@
 						<a href="https://plus.google.com/share?url={{url absolute="true"}}" class="fa fa-google-plus" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
 							<span class="hidden">Google+</span>
 						</a>
-					</section>
+					</section> -->
 				</footer>
+
+				<section class="call-to-action">
+					<h5>What do you think? Let me know.</h5>
+						<div class="tweet-btn">
+							<a href="https://twitter.com/intent/tweet?screen_name=mikeswcho" class="twitter-mention-button" data-size="large" data-related="mikeswcho">Tweet to @mikeswcho</a>
+							<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+						</div>
+				</section>
 
 				<section class="comments-post">
 					<!-- Disqus Comments -->

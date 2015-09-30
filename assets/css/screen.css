@@ -222,7 +222,7 @@ dl dd {
   margin-bottom: 16px; }
 
 li {
-  margin: 8px 0; 
+  margin: 8px 0;
   line-height: 1.65; }
 
 li li {
@@ -333,7 +333,7 @@ table tbody > tr:nth-child(odd) > td, table tbody > tr:nth-child(odd) > th {
 table.plain tbody > tr:nth-child(odd) > td, table.plain tbody > tr:nth-child(odd) > th {
   background: transparent; }
 
-img {
+img:not([src$='#img-regular']) {
   width: 100%;
   height: auto; }
 
@@ -412,7 +412,7 @@ img {
   margin: 0 auto;
   padding: 8px;
   text-transform: uppercase;
-  font-size: 1rem; 
+  font-size: 1rem;
   line-height: 0; }
 
 #menu a {
@@ -487,7 +487,7 @@ img {
   height: 200px;
   display: block;
   margin: 0 auto;
-  transition: all 0.25s ease-in; 
+  transition: all 0.25s ease-in;
  -webkit-animation: slideDown 1s ease;
  -moz-animation: slideDown 1s ease;
  -o-animation: slideDown 1s ease;
@@ -757,7 +757,7 @@ img {
     float: none;
     margin-right: 0;
     padding-bottom: 30px; }
-    
+
   .posts .post .inner .footer-post .share {
     float: none;
     margin-top: 20px; }
